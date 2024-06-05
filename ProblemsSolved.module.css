@@ -1,0 +1,35 @@
+.problems {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .problemList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .problem {
+    flex: 1;
+    min-width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .problem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .problem p {
+    font-size: 1rem;
+  }  
